@@ -125,11 +125,11 @@
 </div>
 </div>
 <div class="flex items-center gap-4">
-<div class="relative hidden sm:block">
+<!-- <div class="relative hidden sm:block">
 <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">search</span>
 <input class="pl-10 pr-4 py-2 bg-surface-container-low border-b-2 border-outline-variant focus:border-primary outline-none text-body-md font-body-md transition-all" placeholder="Cari berita..." type="text"/>
-</div>
-<button class="md:hidden p-2 text-on-surface">
+</div> -->
+<button id="hamburger-btn" class="md:hidden p-2 text-on-surface">
 <span class="material-symbols-outlined text-[24px]">menu</span>
 </button>
 </div>
@@ -142,7 +142,7 @@
 <div class="reading-column">
 <span class="font-label-md text-label-md text-on-primary-container uppercase tracking-widest mb-2 block">Tentang Kami</span>
 <h1 class="font-display-lg text-headline-lg-mobile md:text-display-lg mb-6">Membangun Kepercayaan Lewat Jurnalisme Berintegritas.</h1>
-<p class="font-body-lg text-body-lg opacity-90">News Syndicate adalah institusi media independen yang didedikasikan untuk menyajikan berita akurat, mendalam, dan objektif bagi masyarakat global di era informasi yang bergerak cepat.</p>
+<p class="font-body-lg text-body-lg opacity-90">News Syndicate, atau yang kerap dikenal dengan nama NESIN merupakan grup Roleplay dengan sistematika Trainee dan Eliminasi. NESIN dibangun pada 18 Mei 2025 sebagai grup trainee yang mengusung pembawa berita sebagai konsep utamanya.</p>
 </div>
 </div>
 </section>
@@ -151,22 +151,26 @@
 <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
 <div class="border-l-4 border-primary pl-6 py-2">
 <h2 class="font-headline-md text-headline-md mb-4 text-primary">Visi Kami</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant">Menjadi mercusuar kebenaran dalam lanskap media digital, di mana setiap laporan memberdayakan warga untuk membuat keputusan yang tepat berdasarkan fakta yang tidak terbantahkan.</p>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Untuk mendidik generasi jurnalis yang kritis, bertanggung jawab atas setiap informasi yang disampaikan, dan konsisten dalam menjalankan tugas-tugas jurnalistik dengan beretika.</p>
 </div>
 <div class="border-l-4 border-secondary pl-6 py-2">
 <h2 class="font-headline-md text-headline-md mb-4 text-secondary">Misi Kami</h2>
 <ul class="space-y-4 font-body-md text-body-md text-on-surface-variant">
 <li class="flex gap-3">
 <span class="material-symbols-outlined text-secondary flex-shrink-0">check_circle</span>
-                            Menyajikan berita dengan kecepatan tanpa mengorbankan akurasi.
+                            Membekali calon jurnalis dengan keterampilan jurnalisme digital, termasukk penulisan berita daring, dan penggunaan platform multimedia.
                         </li>
 <li class="flex gap-3">
 <span class="material-symbols-outlined text-secondary flex-shrink-0">check_circle</span>
-                            Membongkar kompleksitas isu global melalui analisis pakar yang mendalam.
+                            Mendorong penyebaran informasi yang akurat dan bertanggung jawab.
                         </li>
 <li class="flex gap-3">
 <span class="material-symbols-outlined text-secondary flex-shrink-0">check_circle</span>
-                            Menjaga independensi editorial dari pengaruh politik maupun komersial.
+                            Mengajarkan etika komunikasi digital, seperti verifikasi sumber daring, anti-hoaks, dan kesadaran akan dampak setiap unggahan.
+                        </li>
+                        <li class="flex gap-3">
+<span class="material-symbols-outlined text-secondary flex-shrink-0">check_circle</span>
+                            Melatih calon jurnalis untuk membangun citra pribadi sebagai jurnalis yang kredibel dan informatif yang menjunjung tinggi etika jurnalistik.
                         </li>
 </ul>
 </div>
@@ -185,46 +189,79 @@
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
 <!-- Team Member 1 -->
 <div class="flex flex-col gap-3 group">
-<div class="aspect-[3/4] overflow-hidden bg-surface-container border border-outline-variant">
-<img alt="Adrian Hartanto" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlnmiD6YB-E1WiIYvNqc0ZY2aKYYVnk2wBTjrB0XQPTg3_w0JmDijT-vIegn7awCRjrgKXpn1ejb-PB4ZEKBhaIST8CM6qgINy4VpU1pwahXGuVwUThn9rZDlv6__hYe86qo3BYuABsWKjutonzFZf0JuVfccLac0xFcki-V2JRCJo-G7IriYN3cM_tb2wvuTHx3Sj_3pDcjPGDLvzbSqPLSKt7G9QwMOQWCwylQu3OupABWVo_YgFDHa4SJ2_A2oLCUuCeHtOzwo"/>
+<div class="aspect-[1/1] overflow-hidden bg-surface-container border border-outline-variant">
+<img alt="Rune Scott" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" src="img/rune.jpeg"/>
 </div>
 <div class="pt-2">
 <span class="font-label-md text-caption text-secondary uppercase">President Director</span>
 <h3 class="font-headline-md text-headline-md mt-1">Rune Scott</h3>
-<p class="font-caption text-caption text-on-surface-variant mt-2">20+ tahun pengalaman dalam jurnalisme investigasi internasional.</p>
+<!-- <p class="font-caption text-caption text-on-surface-variant mt-2">20+ tahun pengalaman dalam jurnalisme investigasi internasional.</p> -->
 </div>
 </div>
 <!-- Team Member 2 -->
 <div class="flex flex-col gap-3 group">
-<div class="aspect-[3/4] overflow-hidden bg-surface-container border border-outline-variant">
-<img alt="Siti Aminah" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2gnlb2NLqIO1jzQOKZAJihLb2kHh7sGpCqsfBcrSbPH-7ZujNVbX6dw6kYd41_cKKZUw1VXklKQOa1eREyOl4KI5XGRGXGnWo6GqQmjAdQmATb7ni246uDNOQ_hDxGXnZruVHWRg2ZkKFeO8_yygsthAGesh4eF8vrpT61e4zqBpBLvCL5KBWZ74qZytPRViFpK3tLJy06H59MikNQ0LZIQ1C9V4N81FRWg8i7c1H3jvlEDmjgUbvN5RDFkuBpptIQ_n4bwLjauQ"/>
+<div class="aspect-[1/1] overflow-hidden bg-surface-container border border-outline-variant">
+<img alt="Tierizon Hellx" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" src="img/hellx.jpeg"/>
 </div>
 <div class="pt-2">
 <span class="font-label-md text-caption text-secondary uppercase">Vice President</span>
 <h3 class="font-headline-md text-headline-md mt-1">Tierizon Hellx</h3>
-<p class="font-caption text-caption text-on-surface-variant mt-2">Spesialis kebijakan publik dan ekonomi makro kawasan Asia Tenggara.</p>
+<!-- <p class="font-caption text-caption text-on-surface-variant mt-2">Spesialis kebijakan publik dan ekonomi makro kawasan Asia Tenggara.</p> -->
 </div>
 </div>
 <!-- Team Member 3 -->
 <div class="flex flex-col gap-3 group">
-<div class="aspect-[3/4] overflow-hidden bg-surface-container border border-outline-variant">
-<img alt="Budi Santoso" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDp6nij3Zvd99mSOKv85KKVJtPXjH0upPArAX8ROofV1svKsz2vdm_O9fYtNjVT8nNFn0kKSyWoP5xwHs_pn3Ctm50bI4sx7AQan3DpEOerwKqTwt2tTiqytCbPma8FfpnG8V-GH8KZjMAdFQFQELklV7hQddst7zLEypqk0lcRx-DItPAT4JvnJxi6QmPrNDg1IyVc63GWohn_MZTX_X79b_OROT6hzoOi0stZDZLNMUx2CWZOoC8bEbnvj2jN7DWfpIBRudRIMCI"/>
+<div class="aspect-[1/1] overflow-hidden bg-surface-container border border-outline-variant">
+<img alt="Benjamin Alexander Schumacher" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" src="img/ben.jpeg"/>
 </div>
 <div class="pt-2">
-<span class="font-label-md text-caption text-secondary uppercase">Scriptor</span>
+<span class="font-label-md text-caption text-secondary uppercase
+">Scriptor</span>
 <h3 class="font-headline-md text-headline-md mt-1">Benjamin Alexander Schumacher</h3>
-<p class="font-caption text-caption text-on-surface-variant mt-2">Mantan koresponden Silicon Valley dengan fokus pada AI dan etika digital.</p>
+<!-- <p class="font-caption text-caption text-on-surface-variant mt-2">Mantan koresponden Silicon Valley dengan fokus pada AI dan etika digital.</p> -->
 </div>
 </div>
 <!-- Team Member 4 -->
 <div class="flex flex-col gap-3 group">
-<div class="aspect-[3/4] overflow-hidden bg-surface-container border border-outline-variant">
-<img alt="Maya Wijaya" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAydjcYJ4L5M2uKKJH0ylDMYt6vTIazCML7m9gMHEvod7dOg3-MO76gMbWLHiC1HplcY54-6Sz61zfSOsKcfe0ZRqdgfAq9_qEXtkI2-N2gmBj0bY2stTRNSetOl8V3AHDK1K1T1GyKkPZUdnurRJ0L1lM5ZIdC5jQePFEsQ0N2h7XytoOOHaRTW_f98_hqOLuEiNOywaNqFouzLH1fZ5_ZZXx7U5t-qdUcNADmEZPB_TRsUdenNnZtFI2Qj6RaQT5KQjJ8OMzz_Lo"/>
+<div class="aspect-[1/1] overflow-hidden bg-surface-container border border-outline-variant">
+<img alt="Magdalene Bogdanov" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" src="img/magda.jpeg"/>
 </div>
 <div class="pt-2">
-<span class="font-label-md text-caption text-secondary uppercase">Koresponden Global</span>
-<h3 class="font-headline-md text-headline-md mt-1">Maya Wijaya</h3>
-<p class="font-caption text-caption text-on-surface-variant mt-2">Melaporkan langsung dari zona konflik dan pusat diplomasi dunia.</p>
+<span class="font-label-md text-caption text-secondary uppercase">Growers</span>
+<h3 class="font-headline-md text-headline-md mt-1">Magdalene Bogdanov</h3>
+<!-- <p class="font-caption text-caption text-on-surface-variant mt-2">Melaporkan langsung dari zona konflik dan pusat diplomasi dunia.</p> -->
+</div>
+</div>
+<div class="flex flex-col gap-3 group">
+<div class="aspect-[1/1] overflow-hidden bg-surface-container border border-outline-variant">
+<img alt="Amerta Griselda" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" src="img/amerta.jpeg"/>
+</div>
+<div class="pt-2">
+<span class="font-label-md text-caption text-secondary uppercase">Oversees</span>
+<h3 class="font-headline-md text-headline-md mt-1">Amerta Griselda</h3>
+<!-- <p class="font-caption text-caption text-on-surface-variant mt-2">Melaporkan langsung dari zona konflik dan pusat diplomasi dunia.</p> -->
+</div>
+</div>
+
+<div class="flex flex-col gap-3 group">
+<div class="aspect-[1/1] overflow-hidden bg-surface-container border border-outline-variant">
+<img alt="Chihaya Gheaminerva" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" src="img/chihaya.jpeg"/>
+</div>
+<div class="pt-2">
+<span class="font-label-md text-caption text-secondary uppercase">Grader</span>
+<h3 class="font-headline-md text-headline-md mt-1">Chihaya Gheaminerva</h3>
+<!-- <p class="font-caption text-caption text-on-surface-variant mt-2">Melaporkan langsung dari zona konflik dan pusat diplomasi dunia.</p> -->
+</div>
+</div>
+
+<div class="flex flex-col gap-3 group">
+<div class="aspect-[1/1] overflow-hidden bg-surface-container border border-outline-variant">
+<img alt="Emmauise Auerswald" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" src="img/emma.jpeg"/>
+</div>
+<div class="pt-2">
+<span class="font-label-md text-caption text-secondary uppercase">Grader</span>
+<h3 class="font-headline-md text-headline-md mt-1">Emmauise Auerswald</h3>
+<!-- <p class="font-caption text-caption text-on-surface-variant mt-2">Melaporkan langsung dari zona konflik dan pusat diplomasi dunia.</p> -->
 </div>
 </div>
 </div>
@@ -257,21 +294,21 @@
 <span class="material-symbols-outlined text-primary text-[32px]">mail</span>
 <div>
 <p class="font-label-md text-caption text-secondary uppercase">Email Redaksi</p>
-<p class="font-body-md font-bold">editorial@newssyndicate.com</p>
+<p class="font-body-md font-bold">ofcnewssyndicate@gmail.com</p>
 </div>
 </div>
 <div class="flex items-center gap-4 p-4 bg-surface border border-outline-variant">
 <span class="material-symbols-outlined text-primary text-[32px]">phone_in_talk</span>
 <div>
 <p class="font-label-md text-caption text-secondary uppercase">Telepon</p>
-<p class="font-body-md font-bold">+62 21 5550 1234</p>
+<p class="font-body-md font-bold">+62 831 9966 8713</p>
 </div>
 </div>
 <div class="flex items-center gap-4 p-4 bg-surface border border-outline-variant">
 <span class="material-symbols-outlined text-primary text-[32px]">location_on</span>
 <div>
 <p class="font-label-md text-caption text-secondary uppercase">Kantor Pusat</p>
-<p class="font-body-md font-bold">Wisma Berita Lt. 12, Jakarta Selatan, Indonesia</p>
+<p class="font-body-md font-bold">Rolepayer, Indonesia</p>
 </div>
 </div>
 </div>
@@ -289,7 +326,7 @@
 <h2 class="font-headline-md text-headline-md text-on-tertiary mb-4">News Syndicate</h2>
 <p class="font-caption text-caption text-on-tertiary-container opacity-80">Jurnalisme global untuk pembaca yang kritis.</p>
 </div>
-<div>
+<!-- <div>
 <h3 class="font-label-md text-label-md text-on-tertiary mb-4 uppercase">Navigasi</h3>
 <ul class="flex flex-col gap-2 font-caption text-caption">
 <li><a class="text-on-tertiary-container opacity-80 hover:text-on-tertiary hover:opacity-100 transition-opacity" href="#">About Us</a></li>
@@ -297,7 +334,7 @@
 <li><a class="text-on-tertiary-container opacity-80 hover:text-on-tertiary hover:opacity-100 transition-opacity" href="#">Newsletter</a></li>
 <li><a class="text-on-tertiary-container opacity-80 hover:text-on-tertiary hover:opacity-100 transition-opacity" href="#">RSS Feed</a></li>
 </ul>
-</div>
+</div> -->
 <div>
 <h3 class="font-label-md text-label-md text-on-tertiary mb-4 uppercase">Legal</h3>
 <ul class="flex flex-col gap-2 font-caption text-caption">
@@ -308,23 +345,58 @@
 <div>
 <h3 class="font-label-md text-label-md text-on-tertiary mb-4 uppercase">Ikuti Kami</h3>
 <div class="flex gap-4">
-<a class="w-10 h-10 border border-on-tertiary-container/30 flex items-center justify-center text-on-tertiary hover:bg-secondary transition-colors" href="#">
+<a class="w-10 h-10 border border-on-tertiary-container/30 flex items-center justify-center text-on-tertiary hover:bg-secondary transition-colors" href="https://newssyndicate.netlify.app/">
 <span class="material-symbols-outlined text-[20px]">public</span>
 </a>
-<a class="w-10 h-10 border border-on-tertiary-container/30 flex items-center justify-center text-on-tertiary hover:bg-secondary transition-colors" href="#">
-<span class="material-symbols-outlined text-[20px]">share</span>
-</a>
-<a class="w-10 h-10 border border-on-tertiary-container/30 flex items-center justify-center text-on-tertiary hover:bg-secondary transition-colors" href="#">
+<a class="w-10 h-10 border border-on-tertiary-container/30 flex items-center justify-center text-on-tertiary hover:bg-secondary transition-colors" href="mailto:ofcnewssyndicate@gmail.com">
 <span class="material-symbols-outlined text-[20px]">alternate_email</span>
 </a>
 </div>
 </div>
 </div>
 <div class="px-margin-desktop py-4 border-t border-on-tertiary-container/10 max-w-container-max mx-auto">
-<p class="font-caption text-caption text-on-tertiary-container opacity-60 text-center">© 2024 News Syndicate. All rights reserved.</p>
+<p class="font-caption text-caption text-on-tertiary-container opacity-60 text-center">© 2026 News Syndicate. All rights reserved.</p>
 </div>
 </footer>
+
+<div id="mobile-menu" class="fixed inset-0 z-[100] bg-black/50 invisible opacity-0 transition-all duration-300 md:hidden">
+    <div class="fixed top-0 right-0 w-3/4 max-w-sm h-full bg-surface p-6 shadow-xl transform translate-x-full transition-transform duration-300 dynamic-menu-content">
+        <div class="flex justify-between items-center mb-8">
+            <h2 class="font-headline-md text-headline-md text-primary">Menu</h2>
+            <button id="close-menu-btn" class="text-primary">
+                <span class="material-symbols-outlined text-3xl">close</span>
+            </button>
+        </div>
+        <nav class="flex flex-col gap-6">
+            <a class="font-label-md text-xl text-on-surface-variant hover:text-primary transition-colors pb-2" href="./index.html">Berita</a>
+            <a class="font-label-md text-xl text-primary font-bold border-b-2 border-secondary pb-2" href="./about.html">Tentang Kami</a>
+        </nav>
+    </div>
+</div>
 <script>
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+const closeMenuBtn = document.getElementById('close-menu-btn');
+const mobileMenu = document.getElementById('mobile-menu');
+const menuContent = mobileMenu?.querySelector('.dynamic-menu-content');
+
+function openMobileMenu() {
+    mobileMenu.classList.remove('invisible', 'opacity-0');
+    menuContent.classList.remove('translate-x-full');
+}
+
+function closeMobileMenu() {
+    mobileMenu.classList.add('opacity-0');
+    menuContent.classList.add('translate-x-full');
+    setTimeout(() => mobileMenu.classList.add('invisible'), 300);
+}
+
+if(hamburgerBtn && closeMenuBtn && mobileMenu) {
+    hamburgerBtn.addEventListener('click', openMobileMenu);
+    closeMenuBtn.addEventListener('click', closeMobileMenu);
+    mobileMenu.addEventListener('click', (e) => {
+        if (!menuContent.contains(e.target)) closeMobileMenu();
+    });
+}
         // Simple micro-interaction for the search bar
         const searchInput = document.querySelector('input[type="text"]');
         searchInput.addEventListener('focus', () => {
@@ -353,4 +425,5 @@
             observer.observe(card);
         });
     </script>
+    
 </body></html>
