@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html class="light" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-error-container": "#93000a",
+                    "on-primary-container": "#768dad",
+                    "primary-container": "#0a2540",
+                    "surface-variant": "#e1e3e4",
+                    "on-tertiary-fixed": "#2d1600",
+                    "on-secondary-fixed": "#410000",
+                    "on-error": "#ffffff",
+                    "tertiary-fixed-dim": "#eebd90",
+                    "surface-tint": "#49607e",
+                    "outline-variant": "#c4c6ce",
+                    "inverse-primary": "#b0c8eb",
+                    "surface-dim": "#d9dadb",
+                    "on-primary-fixed": "#001c37",
+                    "primary-fixed-dim": "#b0c8eb",
+                    "on-background": "#191c1d",
+                    "secondary": "#b02d21",
+                    "surface-container-lowest": "#ffffff",
+                    "on-primary-fixed-variant": "#314865",
+                    "on-tertiary-fixed-variant": "#613f1c",
+                    "surface": "#f8f9fa",
+                    "surface-bright": "#f8f9fa",
+                    "surface-container-high": "#e7e8e9",
+                    "on-secondary": "#ffffff",
+                    "background": "#f8f9fa",
+                    "on-surface": "#191c1d",
+                    "error-container": "#ffdad6",
+                    "secondary-container": "#fc6451",
+                    "on-secondary-fixed-variant": "#8e130c",
+                    "secondary-fixed-dim": "#ffb4a9",
+                    "surface-container": "#edeeef",
+                    "outline": "#74777e",
+                    "on-tertiary-container": "#ae835a",
+                    "on-tertiary": "#ffffff",
+                    "tertiary-fixed": "#ffdcbe",
+                    "tertiary-container": "#381d00",
+                    "secondary-fixed": "#ffdad5",
+                    "surface-container-low": "#f3f4f5",
+                    "inverse-on-surface": "#f0f1f2",
+                    "tertiary": "#1a0b00",
+                    "inverse-surface": "#2e3132",
+                    "on-secondary-container": "#650001",
+                    "on-primary": "#ffffff",
+                    "primary": "#000f22",
+                    "error": "#ba1a1a",
+                    "primary-fixed": "#d2e4ff",
+                    "surface-container-highest": "#e1e3e4",
+                    "on-surface-variant": "#43474d"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "gutter": "24px",
+                    "margin-tablet": "32px",
+                    "base": "8px",
+                    "margin-desktop": "64px",
+                    "margin-mobile": "16px",
+                    "container-max": "1280px"
+            },
+            "fontFamily": {
+                    "caption": ["Inter"],
+                    "display-lg": ["Source Serif 4"],
+                    "body-lg": ["Source Serif 4"],
+                    "headline-lg-mobile": ["Source Serif 4"],
+                    "headline-md": ["Source Serif 4"],
+                    "headline-lg": ["Source Serif 4"],
+                    "body-md": ["Source Serif 4"],
+                    "label-md": ["Inter"]
+            },
+            "fontSize": {
+                    "caption": ["12px", {"lineHeight": "16px", "fontWeight": "400"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-lg": ["20px", {"lineHeight": "32px", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "700"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                    "body-md": ["17px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .reading-column {
+            max-width: 720px;
+        }
+        .editorial-divider {
+            border-top: 4px solid #000f22;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar Shell -->
+<header class="w-full sticky top-0 z-50 bg-surface border-b-4 border-primary">
+<div class="flex justify-between items-center px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="flex items-center gap-3 cursor-pointer active:opacity-70">
+            <div class="w-12 h-12 flex-shrink-0">
+                        <img src="img/logo NESIN2.png" alt="Logo News Syndicate" class="w-full h-full object-contain"/>
+                    </div> 
+            <span class="font-display-lg text-headline-lg text-primary tracking-tighter">
+                News Syndicate
+            </span>
+</div>
+<nav class="hidden md:flex items-center space-x-gutter">
+<a class="text-primary font-bold border-b-2 border-primary font-label-md text-label-md hover:text-secondary transition-colors cursor-pointer active:opacity-70" href="#">Berita</a>
+<a class="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors cursor-pointer active:opacity-70" href="#">Tentang Kami</a>
+</nav>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary cursor-pointer">search</span>
+<span class="material-symbols-outlined text-primary md:hidden cursor-pointer">menu</span>
+</div>
+</div>
+</header>
+<main class="max-w-container-max mx-auto px-margin-desktop py-12">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Main Content Area -->
+<article class="md:col-span-8">
+<div class="mb-8">
+<span id="article-category" class="font-label-md text-caption text-secondary mb-2 block uppercase tracking-widest">MEMUAT BERITA...</span>
+<h1 id="article-title" class="font-display-lg text-headline-lg-mobile md:text-display-lg text-primary mb-6 leading-tight">Memuat artikel...</h1>
+<div class="flex flex-wrap items-center gap-gutter py-4 border-y border-outline-variant">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-primary-container flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined">person</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-primary">Oleh: <span id="article-author" class="font-bold">...</span></p>
+<p class="font-caption text-caption text-on-surface-variant italic">Koresponden berita</p>
+</div>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">calendar_today</span>
+<time id="article-date" class="font-label-md text-label-md">Memuat tanggal...</time>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+<span class="font-label-md text-label-md">Membaca berita</span>
+</div>
+</div>
+</div>
+<!-- Featured Image -->
+<figure class="mb-8">
+<img id="article-image" alt="Gambar berita" class="w-full aspect-video object-cover rounded-lg" src=""/>
+<figcaption id="article-caption" class="mt-4 font-caption text-caption text-on-surface-variant italic">Memuat deskripsi gambar...</figcaption>
+</figure>
+<!-- Article Body -->
+<div id="article-body" class="reading-column mx-auto space-y-6">
+    <!-- Isi body ada di Javascript -->
+      <!-- <h2 class='font-headline-md text-headline-md text-primary pt-2'>Tantangan Keamanan Siber</h2> -->
+</div>
+<!-- Sumber Acuan (References) Section -->
+<section class="mt-12 pt-8 border-t-2 border-primary-container">
+  <h3 class="font-label-md text-label-md text-primary mb-4 uppercase tracking-widest">SUMBER ACUAN</h3>
+  
+  <!-- TAMBAHKAN ID 'article-sources' DI SINI & KOSONGKAN DAFTARNYA -->
+  <ul id="article-sources" class="space-y-3 font-label-md text-label-md text-on-surface-variant">
+    <!-- Isi li akan di-render otomatis oleh JavaScript -->
+  </ul>
+</section>
+</article>
+<!-- Sidebar -->
+<aside class="md:col-span-4 space-y-12">
+<div>
+<h3 class="font-label-md text-label-md text-primary mb-6 pb-2 border-b-2 border-secondary uppercase tracking-widest">BERITA TERKAIT</h3>
+<div id="related-news" class="space-y-8"></div>
+</div>
+<!-- Newsletter Card -->
+<!-- <div class="bg-primary-container p-6 rounded-lg text-on-primary">
+<h3 class="font-headline-md text-headline-md mb-3">Dapatkan Berita Terkini</h3>
+<p class="font-label-md text-label-md text-on-primary-container mb-6 opacity-90">
+                    Langganan buletin harian kami untuk analisis mendalam langsung ke email Anda.
+                </p>
+<form class="space-y-4">
+<input class="w-full bg-surface-container-lowest text-on-surface border-none p-3 rounded font-body-md focus:ring-2 focus:ring-secondary" placeholder="Email Anda" type="email"/>
+<button class="w-full bg-secondary text-on-secondary py-3 rounded font-label-md tracking-widest hover:bg-secondary-container transition-colors" type="submit">DAFTAR SEKARANG</button>
+</form>
+</div> -->
+</aside>
+</div>
+</main>
+<!-- Footer Shell -->
+<footer class="w-full bg-primary-container border-t-4 border-secondary text-on-primary">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop py-12 max-w-container-max mx-auto">
+<div class="space-y-4">
+<div class="flex items-center gap-2">
+                 <div class="w-10 h-10">
+                        <img src="img/logo NESIN2.png" alt="Logo News Syndicate" class="w-full h-full object-contain"/>
+                    </div>
+                <span class="font-display-lg text-headline-md">News Syndicate</span>
+</div>
+<p class="font-label-md text-label-md text-on-primary-container opacity-80">
+                Otoritas berita finansial dan politik terpercaya di Roleplayer. 
+            </p>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="font-label-md text-label-md text-secondary mb-2 uppercase tracking-widest">NAVIGASI</h4>
+<a class="font-label-md text-label-md text-on-primary-container opacity-80 hover:text-white transition-all" href="#">Berita</a>
+<a class="font-label-md text-label-md text-on-primary-container opacity-80 hover:text-white transition-all" href="#">Tentang Kami</a>
+<a class="font-label-md text-label-md text-on-primary-container opacity-80 hover:text-white transition-all" href="#">Kontak</a>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="font-label-md text-label-md text-secondary mb-2 uppercase tracking-widest">LEGAL</h4>
+<a class="font-label-md text-label-md text-on-primary-container opacity-80 hover:text-white transition-all" href="#">Privacy Policy</a>
+<a class="font-label-md text-label-md text-on-primary-container opacity-80 hover:text-white transition-all" href="#">Terms of Service</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-md text-label-md text-secondary mb-2 uppercase tracking-widest">IKUTI KAMI</h4>
+<div class="flex gap-4">
+<a class="text-on-primary opacity-80 hover:opacity-100 hover:text-secondary transition-all" href="#">
+<svg class="w-6 h-6 fill-current" viewbox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg>
+</a>
+<a class="text-on-primary opacity-80 hover:opacity-100 hover:text-secondary transition-all" href="#">
+<svg class="w-6 h-6 fill-current" viewbox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
+</a>
+</div>
+</div>
+<div class="md:col-span-4 mt-8 pt-6 border-t border-on-primary-container opacity-40">
+<p class="font-label-md text-caption text-on-primary">© 2026 News Syndicate. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<script src="js/news-render.js"></script>
+<!-- Reading Progress Indicator -->
+<div class="fixed top-0 left-0 h-1 bg-secondary z-[60] transition-all duration-150" id="progress-bar" style="width: 0%;"></div>
+<script>
+    window.onscroll = function() {
+        let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        let scrolled = (winScroll / height) * 100;
+        document.getElementById("progress-bar").style.width = scrolled + "%";
+    };
+
+    // Micro-interaction for images
+    document.querySelectorAll('img').forEach(img => {
+        img.addEventListener('mouseenter', () => {
+            img.classList.add('opacity-90');
+            img.style.transition = 'opacity 0.3s ease';
+        });
+        img.addEventListener('mouseleave', () => {
+            img.classList.remove('opacity-90');
+        });
+    });
+</script>
+</body></html>
