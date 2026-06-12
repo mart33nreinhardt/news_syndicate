@@ -1,66 +1,67 @@
 (function () {
   const fallbackNews = [
+  {
+    "id": 3,
+    "slug": "penyiraman-air-keras",
+    "category": "UTAMA — HUKUM & KRIMINAL",
+    "title": "Seorang Pria Diserang Cairan Kimia di Jakarta Pusat, Polisi Selidiki Motif Pelaku",
+    "excerpt": "Jakarta, 13 Maret 2026 — Seorang pria menjadi korban penyiraman cairan yang diduga bersifat korosif oleh orang tak dikenal di kawasan Jakarta Pusat pada Kamis (12/3) malam.",
+    "author": "News Syndicate",
+    "date": "24 Oktober 2025",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO-9tLA2Mve-W6jDW1iz7f8Miq-yFag8RBcQ&s",
+    "body": "<p class='font-body-lg text-body-lg text-on-surface leading-relaxed'>Soon</p>",
+
+    
+  },
     {
-      id: 1,
-      slug: 'transformasi-infrastruktur-digital-2030',
-      category: 'UTAMA — POLITIK',
-      title: 'Transformasi Infrastruktur Digital: Visi 2030 Untuk Kemajuan Nasional Indonesia',
-      excerpt: 'Pemerintah secara resmi meluncurkan inisiatif baru yang bertujuan untuk menghubungkan setiap desa di nusantara dengan internet kecepatan tinggi.',
-      author: 'Adi Wijaya',
-      date: '24 Oktober 2024',
-      image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAT8c_Bs2ctKw4Y6tEKhH4lvJfZZhl0Zo5uYhTfYsRU13kT9GcnsjdqSGJy9kz3lgbMm5jFf4HbNH200mXwFUV_SciIOLiwdKPcHKbrQG8INUJBU20ChFO02YRN4_FWIw4yj6_8IwT50L-dE-dQ_ZfvxELcnWIiAYsDtp3qx50VjKGn2n6ISbFVseVD0z-aVWB-olnDbJFC0QJWf8rw4qUjh1UHOA213lz-CcG8BIiAihdCLViOxf5jxLPF0OVQTDtACSVFxSwP2qA'
-    },
-    {
-      id: 2,
-      slug: 'lonjakan-investasi-asing-manufaktur-jawa-tengah',
-      category: 'BISNIS',
-      title: 'Lonjakan Investasi Asing di Sektor Manufaktur Jawa Tengah',
-      excerpt: 'Para investor global mulai melirik potensi besar di kawasan industri baru yang sedang berkembang pesat dengan insentif pajak menarik.',
-      author: 'Bambang Susanto',
-      date: '24 Oktober 2024',
-      image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuABHIwR9mj9H9C6hCUCacsKHv8Xlp0B871aXAyIIxJKEnj_v7uJmM7hjG8P6FUU9BkyyDW7nqySvXp7J2bcoGzH4ZUCweLV8hVe03N5Tq2wEcm_bzu3UyIODAaqQU8zh_1ISJOml2DlpXKcUCg7aHGaJfTCrkawMIO-XkdIZniHCfKDGNasj5T6PDbL-3u3ZpOZoqLa_nlWm50Bc_NtKGVxYyG9tlvWfBrfZ1G0-eOeLHuWBP8QyFZxcBRQEgH15ml0WD7ASx-k1lI'
-    },
-    {
-      id: 3,
-      slug: 'startup-lokal-menembus-pasar-global-ai-suara',
-      category: 'TEKNOLOGI',
-      title: 'Startup Lokal Menembus Pasar Global Melalui AI Suara',
-      excerpt: 'Inovasi dalam pengenalan suara bahasa daerah membawa perusahaan rintisan asal Yogyakarta ini meraih pendanaan seri B besar.',
-      author: 'Riska Amalia',
-      date: '23 Oktober 2024',
-      image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBVg5iG-Q2iY03w3GtOXW0wkL7AbOpM6xvPKof5G-2Bzm55e5rRCkSUrT2tInTxFLRhPY-bBhn-ouFz_TM-F1acIpgUHRBfg5Qcc8m6vftv2o19uMlaMQyhbQVzEEVaizPQjo_HAPicca1oAheqrctiX4wAkZU2NV8xDhBAJFb3AqNKjCR-Iww7F_G-um1Oj7WY38Ab4ZX4MG3LOy7dSQ820Mrpug_CQ9vbVsNnafD7ac6b1jk9TFsUKklbfjzWbFX3jQYfC-6oNlM'
-    },
-    {
-      id: 4,
-      slug: 'revisi-kurikulum-nasional-literasi-digital',
-      category: 'PENDIDIKAN',
-      title: 'Revisi Kurikulum Nasional Fokus pada Literasi Digital',
-      excerpt: 'Perubahan besar dalam sistem pendidikan akan mulai diterapkan tahun depan untuk membekali siswa dengan keahlian masa depan.',
-      author: 'Eko Prasetyo',
-      date: '23 Oktober 2024',
-      image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB9cEsaqbSUHFNCkl9CwmQUe46a0CS-f0K4U-TutaUzqSieh7kKs2wdjwDcEZRUW-ehBoODSOJf44yKaF2XAxkVElGUvHm3PkKdliTRQAPX0gjiR2OuGRvf1U0jb27LItzWiilkDQN8ku2tH2QVVSE-VOttHxOoxEqH6K5fKr0UPmsYBykMkY_jfpIIinIOaHL6t9rrmVQcABXrs2z5EGgoUw8kRCA7q7Lkvk3FfxA4WBHVwxte-1xzkzPwTo6fiNcTJV-EFo9kKag'
-    },
-    {
-      id: 5,
-      slug: 'ihsg-menguat-tipis-sentimen-suku-bunga',
-      category: 'MARKETS',
-      title: 'IHSG Menguat Tipis di Tengah Sentimen Suku Bunga Global',
-      excerpt: 'Pasar saham domestik menutup perdagangan dengan kenaikan tipis menyusul ekspektasi pelonggaran kebijakan moneter.',
-      author: 'Sari Putri',
-      date: '2 jam yang lalu',
-      image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAvAFjgSBUIRuWUTOt-jqgm30e1-ayGoKIJNg64DF8f9BH7iGl6HeW5GCPdTPr1QUZabJ6pim8rUWqSu2GydEvAHk0CriChjZYZsWyBqmvdZekO86QjpvSo-yUuhmhHO8aQW4Cilv_KXCO7rvzQ7DmMj_76u76spze-l9D5q8al-SdydsnbuQmh03nbSeWMGI38OsqtkgjRpn47_CQ6e__uwifHl0GI8r9GObkjCqsEQ9QnEXwAq66_So5yIfQrso6NdLw-NTsadaM'
-    },
-    {
-      id: 6,
-      slug: 'cbdc-masa-depan-rupiah-digital-bi',
-      category: 'TECH',
-      title: 'CBDC: Masa Depan Rupiah Digital di Tangan BI',
-      excerpt: 'Bank Indonesia terus memajukan riset digital rupiah sebagai langkah strategis di era transaksi cashless.',
-      author: 'Rizki Anwar',
-      date: '5 jam yang lalu',
-      image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA68iteDS05758cslIdRmPVdnmZpCNAu18QV822EQYSUCBLQgLuBc3466i-w2vPTfsTHgOfoWNzd2UQAWuhYtWz0q2AsQsObIGMBAKeTSVTXtBuIxBfcD1hp0TcMJ0y1MFG72Qro6t8clzFlgSMX7btk4ZPh7Iy051EO3CpYgJuBnnHBujQO2IDFbVE9dHYIfEjC9-eXpJT5Ca2EJKtwFbUzwOITZyv1vj6xiqXT69AcWsv1Fi6iGcLfeGJQMVy-prMXQIOVtRwdM4'
-    }
-  ];
+    "id": 1,
+    "slug": "demo-dpr",
+    "category": "POLITIK",
+    "title": "Dari Fasilitas ke Protes : DPR dalam Krisis",
+    "excerpt": "Kontroversi tunjangan rumah Rp50 juta per bulan bagi 575 anggota DPR RI pada Agustus–September 2025 memicu gelombang protes nasional. Publik menilai kebijakan ini tidak masuk akal di tengah kondisi ekonomi rakyat, apalagi total pendapatan anggota DPR bisa menembus Rp100 juta per bulan. ",
+    "author": "News Syndicate",
+    "date": "24 Oktober 2025",
+    "image": "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/d835/live/841ebdc0-ef3f-11ef-8c81-797f3f9fecca.jpg.webp",
+    "body": "<p class='font-body-lg text-body-lg text-on-surface leading-relaxed'>Kontroversi tunjangan rumah Rp50 juta per bulan bagi 575 anggota DPR RI pada Agustus–September 2025 memicu gelombang protes nasional. Publik menilai kebijakan ini tidak masuk akal di tengah kondisi ekonomi rakyat, apalagi total pendapatan anggota DPR bisa menembus Rp100 juta per bulan. Penjelasan pimpinan DPR yang menyebut tunjangan tersebut hanya bersifat sementara gagal meredakan amarah masyarakat, justru memperburuk krisis kepercayaan.</p><p class='font-body-lg text-body-lg text-on-surface leading-relaxed'>Blunder anggota DPR di media sosial memperkeruh suasana. Pernyataan Nafa Urbach yang membela tunjangan dianggap tidak peka, sementara gaya flamboyan Ahmad Sahroni menimbulkan kecaman luas hingga rumahnya dijarah massa. Situasi semakin panas dengan viralnya video “Joget DPR” yang dijadikan simbol ketidakpedulian dewan, mendorong demo 25 Agustus berubah menjadi kerusuhan besar. Puncaknya, bentrokan dengan aparat menelan korban jiwa dan membuat beberapa anggota DPR dinonaktifkan.</p><p class='font-body-lg text-body-lg text-on-surface leading-relaxed'>Dampaknya sangat serius: negara menanggung beban Rp1,74 triliun, kepercayaan publik terhadap DPR jatuh ke titik nadir, dan legitimasi politik lembaga legislatif terguncang. Partai-partai terpaksa menonaktifkan kader bermasalah dan berjanji memperbaiki komunikasi publik. Meski pimpinan DPR berkomitmen meninjau ulang kebijakan dan meningkatkan transparansi, kasus ini meninggalkan luka mendalam sekaligus memperlihatkan jurang ketimpangan antara elite politik dan rakyat.</p>",
+
+  },
+  {
+    "id": 2,
+    "slug": "fantasi-sedarah",
+    "category": "SOSIAL",
+    "title": "Dibalik Grup Hubungan Sedarah pada Sosial Media: Fantasi sedarah",
+    "excerpt": "Seperti yang kita tahu bahwa beberapa waktu lalu terdapat kasus yang viral di sosial media, yaitu grup atau komunitas hubungan sedarah. Bisa dilihat jikalau pelakunya tidak lain tidak bukan ialah anggota keluarga dari sang korban sendiri. Bahkan, seorang ibu, saudara perempuan, atau adik laki-lakinya sendiri bisa menjadi korban.",
+    "author": "News Syndicate",
+    "date": "24 Oktober 2025",
+    "image": "https://manunggal.undip.ac.id/wp-content/uploads/2025/05/Fantasi-Sedarah-Artikel.jpg",
+    "body": "<p class='font-body-lg text-body-lg text-on-surface leading-relaxed'>Kontroversi tunjangan rumah Rp50 juta per bulan bagi 575 anggota DPR RI pada Agustus–September 2025 memicu gelombang protes nasional. Publik menilai kebijakan ini tidak masuk akal di tengah kondisi ekonomi rakyat, apalagi total pendapatan anggota DPR bisa menembus Rp100 juta per bulan. Penjelasan pimpinan DPR yang menyebut tunjangan tersebut hanya bersifat sementara gagal meredakan amarah masyarakat, justru memperburuk krisis kepercayaan.</p><p class='font-body-lg text-body-lg text-on-surface leading-relaxed'>Blunder anggota DPR di media sosial memperkeruh suasana. Pernyataan Nafa Urbach yang membela tunjangan dianggap tidak peka, sementara gaya flamboyan Ahmad Sahroni menimbulkan kecaman luas hingga rumahnya dijarah massa. Situasi semakin panas dengan viralnya video “Joget DPR” yang dijadikan simbol ketidakpedulian dewan, mendorong demo 25 Agustus berubah menjadi kerusuhan besar. Puncaknya, bentrokan dengan aparat menelan korban jiwa dan membuat beberapa anggota DPR dinonaktifkan.</p><p class='font-body-lg text-body-lg text-on-surface leading-relaxed'>Dampaknya sangat serius: negara menanggung beban Rp1,74 triliun, kepercayaan publik terhadap DPR jatuh ke titik nadir, dan legitimasi politik lembaga legislatif terguncang. Partai-partai terpaksa menonaktifkan kader bermasalah dan berjanji memperbaiki komunikasi publik. Meski pimpinan DPR berkomitmen meninjau ulang kebijakan dan meningkatkan transparansi, kasus ini meninggalkan luka mendalam sekaligus memperlihatkan jurang ketimpangan antara elite politik dan rakyat.</p>",
+
+  },
+  {
+    "id": 3,
+    "slug": "korupsi-pertamina",
+    "category": "HUKUM & POLITIK",
+    "title": "Koruptor Memupuk Kerugian Tanpa Henti Hingga Mencapai 968 Triliun Rupiah",
+    "excerpt": "Korupsi PT Pertamina belakangan ini terungkap melibatkan kebijakan ceroboh dalam pengelolaan produksi dalam negeri, pengendalian impor, penambahan biaya pengiriman, dan juga mengimpor bahan bakar RON90, yang mana kemudian diubah menjadi RON92 yang saat ini kita kenal.",
+    "author": "News Syndicate",
+    "date": "24 Oktober 2025",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxV_go86M6rSHSDEgLQsGcRA2R3TdJbH0VPg&s",
+    "body": "<p class='font-body-lg text-body-lg text-on-surface leading-relaxed'>Kontroversi tunjangan rumah Rp50 juta per bulan bagi 575 anggota DPR RI pada Agustus–September 2025 memicu gelombang protes nasional. Publik menilai kebijakan ini tidak masuk akal di tengah kondisi ekonomi rakyat, apalagi total pendapatan anggota DPR bisa menembus Rp100 juta per bulan. Penjelasan pimpinan DPR yang menyebut tunjangan tersebut hanya bersifat sementara gagal meredakan amarah masyarakat, justru memperburuk krisis kepercayaan.</p><p class='font-body-lg text-body-lg text-on-surface leading-relaxed'>Blunder anggota DPR di media sosial memperkeruh suasana. Pernyataan Nafa Urbach yang membela tunjangan dianggap tidak peka, sementara gaya flamboyan Ahmad Sahroni menimbulkan kecaman luas hingga rumahnya dijarah massa. Situasi semakin panas dengan viralnya video “Joget DPR” yang dijadikan simbol ketidakpedulian dewan, mendorong demo 25 Agustus berubah menjadi kerusuhan besar. Puncaknya, bentrokan dengan aparat menelan korban jiwa dan membuat beberapa anggota DPR dinonaktifkan.</p><p class='font-body-lg text-body-lg text-on-surface leading-relaxed'>Dampaknya sangat serius: negara menanggung beban Rp1,74 triliun, kepercayaan publik terhadap DPR jatuh ke titik nadir, dan legitimasi politik lembaga legislatif terguncang. Partai-partai terpaksa menonaktifkan kader bermasalah dan berjanji memperbaiki komunikasi publik. Meski pimpinan DPR berkomitmen meninjau ulang kebijakan dan meningkatkan transparansi, kasus ini meninggalkan luka mendalam sekaligus memperlihatkan jurang ketimpangan antara elite politik dan rakyat.</p>",
+  }
+
+]
+
+    // "sumber": [{
+    //  "judul": "Laporan Triwulan Otoritas Jasa Keuangan (OJK) - Transformasi Keuangan Digital 2024",
+    //     "link": "https://www.cnnindonesia.com/teknologi/202410" 
+    // }, {
+    //     "judul": "Data Statistik Perbankan Bank Indonesia, Semester I-2024.",
+    //     "link": "https://www.kompas.com/teknologi/202410"
+    // },
+    // {
+    //     "judul": "Hasil Riset 'Digital Banking in Southeast Asia' - McKinsey &amp; Company.",
+    //     "link": "https://www.detik.com/teknologi/202410"
+    // }]
 
   function renderCard(item, variant) {
     if (variant === 'related') {
